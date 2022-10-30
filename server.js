@@ -32,4 +32,4 @@ console.log(url)
           })
       })
 
-    app.listen(process.env.PORT||3000, console.log('listening'))
+    app.listen(3000, console.log('listening'))
