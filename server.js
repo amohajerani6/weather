@@ -7,6 +7,7 @@ app.use(bodyParser.urlencoded({
   extended: false
 }))
 app.get('/', function(req, res) {
+  console.log('received a request')
   res.sendFile(__dirname + '/index.html')
 })
 
